@@ -11,7 +11,6 @@ const router = express.Router();
 
 router.post("/blogs", createBlogPost);
 router.get("/blogs", getAllBlogPosts);
-// router.get("/blogs/search", searchBlogPosts); //  may include if time left
 router.get("/blogs/:id", getBlogPostById);
 router.put("/blogs/:id", updateBlogPost);
 router.delete("/blogs/:id", deleteBlogPost);
